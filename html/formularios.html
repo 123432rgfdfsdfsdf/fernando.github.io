@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1>
+</header>
+<nav>
+	<ul id="menu">
+    <li><a href="mi_primera_pagina.html">Formatos de texto</a></li>
+    <li><a href="listas css2.html">Listas</a></li>
+    <li><a href="enlaces2.html">Enlaces </a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+	<li><a href="imagenes.html" target="_self">Imagenes</a></li>
+	<li><a href="audio.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="formularios.html">Formularios</a></li>
+  </ul></nav>
+<main>
+  <section>
+    <h2>Formulario de tipo texto y submit</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate dolore, expedita sint fugiat consectetur minus amet perferendis modi error omnis dolorem aspernatur repellendus a, eaque distinctio magnam quas deleniti.</p>
+    <form id="form1" name="form1" method="get" action="">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+      <input name="boton1" type="submit" class="btn_style" id="boton1" value="Enviar">
+    </form>
+  </section>
+  <section>
+    <h2>Formularios (desplegable, radiobuttoms y checkbox)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias debitis libero eligendi ullam esse nesciunt unde dolores eaque, facilis eos, culpa provident corrupti praesentium assumenda distinctio id optio ex.</p>
+    <form action="procesamiento.html" method="get" name="form2" id="form2">
+      <label for="pais">Pais:</label>
+      <select name="pais" id="pais">
+        <option value="Mx">Mexico</option>
+        <option value="Es">España</option>
+        <option value="Eu">Estados Unidos</option>
+        <option value="Ar">Argentina</option>
+        <option value="Co">Colombia</option>
+      </select>
+		<br>
+      <label for="Genero">Genero</label>
+      <p>
+        <label>
+          <input type="radio" name="Genero" value="fem" id="Genero_0">
+          Femenino</label>
+        <br>
+        <label>
+          <input type="radio" name="Genero" value="mas" id="Genero_1">
+          Masculino</label>
+        <br>
+        <label>
+          <input type="radio" name="Genero" value="otro" id="Genero_2">
+          otro</label>
+        <br>
+      </p>
+      <label>Preferencias musicales</label>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Estilos de música" value="pop" id="Estilosdemuacutesica_0">
+            Pop</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Estilos de música" value="rock" id="Estilosdemuacutesica_1">
+            Rock</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Estilos de música" value="jazz" id="Estilosdemuacutesica_2">
+            Jazz</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Estilos de música" value="clásica" id="Estilosdemuacutesica_3">
+            Clásica</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Estilos de música" value="alternativa" id="Estilosdemuacutesica_4">
+            Alternativa</label></td>
+        </tr>
+      </table>
+<input name="boton2" type="submit" class="btn_style" id="boton2" value="Enviar">
+    </form>
+  </section>
+  <section>
+    <h2>Formularios con select desplegable</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias debitis libero eligendi ullam esse nesciunt unde dolores eaque, facilis eos, culpa provident corrupti praesentium assumenda distinctio id optio ex.</p>
+    <form id="form3" name="form3" method="post">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+		<br><br>
+      <label for="textarea">Comentario:</label>
+		<br><br>
+      <textarea name="textarea" cols="30" rows="20" maxlength="100" autofocus="autofocus" class="comentario" id="textarea">Escribe aquí tu comentario...</textarea>
+		<br>
+      <input name="boton3" type="submit" class="btn_style" id="boton3" formaction="procesamiento.html" formmethod="GET" value="Enviar">
+    </form>
+  </section>
+  <section>
+    <h2>Formularios con select desplegable</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias debitis libero eligendi ullam esse nesciunt unde dolores eaque, facilis eos, culpa provident corrupti praesentium assumenda distinctio id optio ex.</p>
+    <form id="form4" name="form4" method="get" action="">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre2" id="nombre2">
+      <label for="apellido">Apellidos:</label>
+      <input type="text" name="apellido2" id="apellido2">
+		<br><br>
+	 <label for="edad">Edad:</label>
+      <input type="edad" name="edad"><br><br>
+		<label for="estado civil">Estado civil:</label>
+      <input type="civil" name="civil"><br><br>
+		<label for="estatura">Estatura:</label>
+      <input type="estatura" name="estarura"><br><br>
+		<label for="peso">Peso Corporal:</label>
+      <input type="peso" name="peso"><br><br>
+		<label for="sotware">Sotfware de edición</label><br><br>
+  <input type="radio" id="photoshop" name="software1" value="photoshop">
+  <label for="html">Photoshop</label><br>
+  <input type="radio" id="illustrator" name="software2" value="illustrator">
+  <label for="css">Illustrator</label><br>
+  <input type="radio" id="photophea" name="software3" value="photophea">
+  <label for="javascript">Photophea</label><br><br>
+		<label for="transporte">¿En qué te transportas?</label><br><br>
+  <input type="checkbox" id="bicicleta" name="transporte1" value="Bicicleta">
+  <label for="vehicle1"> Biclicleta</label><br>
+  <input type="checkbox" id="auto propio" name="transporte2" value="Automóbil">
+  <label for="vehicle2"> Auto propio</label><br>
+  <input type="checkbox" id="transporte publico" name="transporte3" value="Transporte público">
+  <label for="vehicle3"> Transporte público</label><br><br>
+    <textarea name="message" rows="50" cols="40">
+Escribenos tu comentario...
+</textarea><br><br>
+		<input name="boton5" type="submit" class="btn_style" id="boton5" formaction="procesamiento.html" formmethod="GET" value="Enviar">
+		</form>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Fernando Vázquez</h6>
+</footer>
+</body>
+</html>

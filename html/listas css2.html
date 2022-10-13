@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas en html</title>
+<style type="text/css">
+header  {
+    width: 1200px;
+    height: auto;
+    background-color: #79C4B2;
+    color: #240EE0;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+header h1 {
+    color: #660968;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 72px;
+}
+body header, body nav , body main, body footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: auto;
+    padding-right: auto;
+}
+body h6 {
+}
+body main section {
+    width: 800px;
+    background-color: #33D427;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    margin-left: auto;
+    color: #F3F3F3;
+}
+body nav {
+    background-color: #6D94D8;
+    color: #4F17D7;
+    height: 50px;
+}
+body main {
+    background-color: #0688F3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+main section ol , main section ul{
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+body footer {
+    background-color: #D37CFF;
+    height: 60px;
+    color: #000000;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body footer h6 {
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    text-align: center;
+    font-size: 24px;
+}
+.box_impar {
+    background-color: #0C7A60;
+}
+#box_unica {
+    background-color: #29F077;
+    color: #0A315F;
+}
+#lista_1 {
+    list-style-type: decimal;
+}
+#list_2 {
+    list-style-image: url(../imagenes/continuar%202.png);
+}
+#menu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#menu li {
+    width: 140px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #EDE96F;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Listas en html</h1>
+ </header>
+<nav>
+  <ul id="menu">
+	<li><a href="mi_primera_pagina.html">Formatos de texto</a></li>
+    <li><a href="listas css2.html">Listas</a></li>
+    <li><a href="enlaces2.html">Enlaces </a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+	<li><a href="imagenes.html" target="_self">Imagenes</a></li>
+  </ul>
+</nav>
+<main>
+  <section class="box_impar">
+    <h2>Lista ordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate excepturi deleniti aperiam doloribus officia, rem tempore praesentium nesciunt qui dolorum provident ullam odit voluptas. Earum esse totam repudiandae tempora error recusandae, itaque et adipisci vero sapiente libero, porro, ducimus harum. Nihil cum libero nulla unde. Nulla ipsum, eveniet ab, omnis qui beatae recusandae ipsam esse. Aperiam ea quis aliquam id eveniet, eaque delectus expedita neque officiis, illo quam cupiditate minus optio dolore tempore alias quas unde, fugiat voluptate iure ad esse autem ipsam. Modi quisquam, veniam unde facere ex voluptatibus incidunt dolores deleniti temporibus rem harum quis, perspiciatis vitae qui?</p>
+	  <ol>
+		<li>Mitología Egipcia</li>
+		<li>Mitología Nórdica</li>
+		<li>Mitología Azteca</li>
+		<li>Mitología Japonesa</li>
+	</ol>
+  Colocar aquí el contenido de la nueva etiqueta section</section>
+<!--Shortcut(section>h2+p)*5 genera 5 secciones que contienen un encabezado de nivel 2 y un parrafo-->
+<section>
+	<h2>Lista desordenada</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate consectetur in voluptatem facilis illum modi quibusdam quae debitis. Nisi obcaecati suscipit quas vero, dolorum distinctio harum sunt consectetur, rerum id autem, animi qui voluptatibus error ducimus facilis delectus est at repudiandae. Porro incidunt architecto aspernatur, quis distinctio fugiat, officiis tempore.</p>
+	<ul>
+		<li>Esfinge</li>
+		<li>Trolls</li>
+		<li>Quetzalcoatl</li>
+		<li>Byakko</li>
+	</ul>
+</section>
+<section class="box_impar">
+	<h2>Lista mixta</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nostrum illo culpa commodi vero, delectus sit. In fugiat qui harum nihil dolorem perferendis excepturi. Voluptas totam iste quas voluptates architecto officia ex officiis quis id sit cum, adipisci magni. Perspiciatis molestiae tempore ab eveniet consequuntur, aliquam suscipit, magnam tempora quam.</p>
+	<ol>
+		<li>Mitología Egipcia
+			<ul>
+				<li>Orus</li>
+				<li>Anubis</li>
+				<li>Osiris</li>
+			</ul>
+		</li>
+		<li>Mitología Nórdica
+			<ul>
+				<li>Odín</li>
+				<li>Loki</li>
+				<li>Thor</li>
+			</ul>
+		</li>
+		<li>Mitología Azteca
+			<ul>
+			  <li>Coatlicue</li>
+				<li>Tlaloc</li>
+				<li>Huitzilopochtli</li>
+			</ul>
+		</li>
+		<li>Mitología Japonesa
+			<ul>
+				<li>Ama no Uzume</li>
+				<li>Amaterazu</li>
+				<li>Susanoo</li>
+			</ul>
+		</li>
+	</ol>
+</section>
+<section>
+  <h2>Lista desde dreamweaver</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam nulla aut, maiores magni fuga alias reprehenderit ea praesentium voluptas illum optio modi, cumque odio laborum quasi nesciunt quae nam. Error nulla nobis maiores mollitia repellat excepturi sint necessitatibus atque nam. Architecto ea voluptatem recusandae quo vitae tempore eos in voluptates!</p>
+  <ol id="list_2">
+    <li>Historia</li>
+    <li>Criaturas </li>
+    <li>Dioses</li>
+    <li>Descendencia </li>
+  </ol>
+</section>
+<section id="box_unica">
+  <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit natus obcaecati sed possimus porro laborum atque iure at nulla dicta doloremque nisi reprehenderit, rem, necessitatibus nemo autem mollitia iusto vitae rerum nostrum recusandae totam consequuntur tempora. Vel nesciunt nobis excepturi consequuntur et molestias voluptates obcaecati, voluptatibus! Nam in magni minus.</p>
+  <ul id="lista_1">
+    <li>Ricardo Salinas </li>
+    <li>Juan Vázquez</li>
+    <li>Susan Yanet</li>
+    <li>Esmeralda Cardoso </li>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dignissimos, eligendi cum aliquid reprehenderit ullam, debitis amet, molestias voluptatem accusantium voluptate exercitationem ipsa magnam cumque alias velit dolore recusandae! Quidem.</p>
+    <a href="http://marykay.com.mx"><img src="pinguino.png" width="32" height="32" alt=""/></a>
+  </ul>
+  &nbsp;</section>
+</main>
+<footer>
+<h6>Elaborado por Fernando Vázquez Sánchez</h6>
+</body>
+</html>

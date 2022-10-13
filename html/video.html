@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Video en html</h1>
+</header>
+<nav>
+	<ul id="menu">
+    <li><a href="mi_primera_pagina.html">Formatos de texto</a></li>
+    <li><a href="listas css2.html">Listas</a></li>
+    <li><a href="enlaces2.html">Enlaces </a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+	<li><a href="imagenes.html" target="_self">Imagenes</a></li>
+	<li><a href="audio.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="formularios.html">Formularios</a></li>
+  </ul></nav>
+<main>
+  <section>
+    <h2>Video desde codigo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quae, quasi! Delectus ducimus distinctio esse quaerat, sapiente voluptatem a odio, numquam aspernatur, voluptatum impedit maiores. Harum laboriosam alias dolorum sapiente quos in incidunt officiis numquam quia voluptatem cum fuga magnam corporis vel excepturi qui tenetur, esse debitis deserunt, consequatur tempora.</p>
+	<video controls>
+	  <source src="../video/pexels-rostislav-uzunov-5680034.mp4" tyoe="video/mp4">
+	  </video>
+  </section>
+  <section>
+    <h2>Video con reproducción automática sin controles</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quae, quasi! Delectus ducimus distinctio esse quaerat, sapiente voluptatem a odio, numquam aspernatur, voluptatum impedit maiores. Harum laboriosam alias dolorum sapiente quos in incidunt officiis numquam quia voluptatem cum fuga magnam corporis vel excepturi qui tenetur, esse debitis deserunt, consequatur tempora.</p>
+    <video class="video_2" muted="muted" autoplay="autoplay" loop="loop" >
+      <source src="../video/pexels-engin-akyurt-6084644.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <h2>Video con imagen de poster</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quae, quasi! Delectus ducimus distinctio esse quaerat, sapiente voluptatem a odio, numquam aspernatur, voluptatum impedit maiores. Harum laboriosam alias dolorum sapiente quos in incidunt officiis numquam quia voluptatem cum fuga magnam corporis vel excepturi qui tenetur, esse debitis deserunt, consequatur tempora.</p>
+    <video width="640" height="360" poster="../imagenes/pexels-daniel-frank-287229.jpg" controls="controls" >
+      <source src="../video/pexels-rostislav-uzunov-7385122.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <h2>Video de repositorio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quae, quasi! Delectus ducimus distinctio esse quaerat, sapiente voluptatem a odio, numquam aspernatur, voluptatum impedit maiores. Harum laboriosam alias dolorum sapiente quos in incidunt officiis numquam quia voluptatem cum fuga magnam corporis vel excepturi qui tenetur, esse debitis deserunt, consequatur tempora.</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/dfj7g94eq94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  <section>
+    <h2>Video desde otro repositorio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quae, quasi! Delectus ducimus distinctio esse quaerat, sapiente voluptatem a odio, numquam aspernatur, voluptatum impedit maiores. Harum laboriosam alias dolorum sapiente quos in incidunt officiis numquam quia voluptatem cum fuga magnam corporis vel excepturi qui tenetur, esse debitis deserunt, consequatur tempora.</p>
+	<iframe src="https://archive.org/embed/411vm-best-of-411-vol.-3-1996-vhs-iso-file" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Fernando Vázquez</h6>
+</footer>
+</body>
+</html>
